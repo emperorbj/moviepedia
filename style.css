@@ -87,6 +87,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     background-color: var(--main-color);
     margin: 1px 20px;
     height: 100vh;
