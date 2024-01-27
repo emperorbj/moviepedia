@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script:wght@500&family=Josefin+Sans&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,700&family=Roboto&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* #323946  #22254b  7f00ff*/
+
+:root{
+    --bg-color:#323946;
+    --second-bg-color:#bf40bf;
+    --text-color:#fff;
+    --main-color:#22254b;
+}
+
+.division-p1{
+    padding: 20px 80px;
+}
+
+h2{
+    font-size: 2.3rem;
+}
+
+h3{
+    font-size: 1.4rem;
+}
+
+.navbar{
+    background-color:var(--main-color);
+    margin: 20px 20px 4px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 14vh;
+    border-radius: 10px;
+}
