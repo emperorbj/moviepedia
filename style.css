@@ -35,3 +35,29 @@ h3{
     height: 14vh;
     border-radius: 10px;
 }
+
+.navbar input{
+    margin-right: 20px;
+    padding: .7rem 2.5rem;
+    outline: none;
+    border: 2px solid var(--text-color);
+    border-radius: 30px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.navbar h2{
+    margin-left: 20px;
+    color: var(--text-color);
+}
+
+.navbar span{
+    color: orange;
+}
+
+main .movie-card{
+    width:350px;
+    background-color:#1f242d;
+    margin-top: -80px;
+    border-radius: 10px;
+}
