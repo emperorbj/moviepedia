@@ -58,6 +58,7 @@ h3{
 main .movie-card{
     width:350px;
     background-color:#1f242d;
+    margin-top: 20px;
     border-radius: 10px;
 }
 
