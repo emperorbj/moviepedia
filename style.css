@@ -73,6 +73,12 @@ main .movie-info{
     color: #fff;
 }
 
+
+.movie-card .image{
+    width: 100%;
+    height: 80vh;
+}
+
 .movie-info span{
     margin-right: 20px;
     font-weight: 700;
