@@ -90,7 +90,7 @@ main{
     flex-wrap: wrap;
     background-color: var(--main-color);
     margin: 1px 20px;
-    height: 100vh;
+    height: 100%;
     border-radius: 10px;
 
 }
