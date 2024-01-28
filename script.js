@@ -9,7 +9,7 @@ async function searchMovie(){
     const package = data.results
     containerMovie.innerHTML = ''
     package.map((result)=>{
-        const image = result.backdrop_path
+        const image = 'https://image.tmdb.org/t/p/w500' +  result.poster_path
         const title = result.original_title
 
         const html = `<div class="movie-card">
