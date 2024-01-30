@@ -1,5 +1,9 @@
+
+// DECLARING NECESSARY VARIABLES
 const apiKey = '21e3f055fa996f78a2886737bb6e7957'
 const containerMovie = document.querySelector('#main')
+
+// ASYNC/AWAIT FUNCTION 
 async function searchMovie(){
     const url = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=21e3f055fa996f78a2886737bb6e7957'
     const response = await fetch(url)
