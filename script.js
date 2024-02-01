@@ -28,5 +28,5 @@ async function searchMovie(){
     containerMovie.insertAdjacentHTML('afterbegin',html)
 })
 }
-
 searchMovie()
+// searching movie by name
