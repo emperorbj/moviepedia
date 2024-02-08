@@ -32,7 +32,7 @@ containerMovie.insertAdjacentHTML('beforeend',html)
 searchMovie()
 
 
-
+// function that fetches movie animations
 function showKids(){
     async function searchAnimations(){
         try{
@@ -67,7 +67,7 @@ function showKids(){
 showKids()
 
 
-
+// function that fetches movie series
 function showSeries(){
     async function searchSeries(){
         try{
