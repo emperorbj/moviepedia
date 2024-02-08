@@ -1,4 +1,4 @@
-
+// selecting relevant elements and tags
 const containerMovie = document.querySelector('.movie-container')
 const containerKids = document.querySelector('.movie-container-kids')
 const containerSeries = document.querySelector('.movie-container-series')
