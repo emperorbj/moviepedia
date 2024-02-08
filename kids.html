@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>moviepedia</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <h2>movie<span>pedia</span></h2>
+                <ul>
+                    <li><a class="effect" href="index.html">Latest</a></li>
+                    <li><a class="effect" href="kids.html" onclick="showKids()">Kids Stuffs</a></li>
+                    <li><a class="effect" href="series.html">Series</a></li>
+                </ul>
+                <input type="text" class="search" placeholder="search here">
+                <box-icon name='search'></box-icon>
+            </div>
+        </header>
+        <main id="main">
+            <section id="section-1" class="division-p2">
+                <div class="side-bar-menu">
+                    <a href="#"><i class='bx bx-home'></i></a>
+                    <p>Home</p>
+                </div>
+                <div class="side-bar-menu">
+                    <a href="#"><i class='bx bx-rocket'></i></a>
+                    <p>Discover</p>
+                </div>
+                <div class="side-bar-menu">
+                    <a href="#"><i class='bx bx-help-circle'></i></a>
+                    <p>Help</p>
+                </div>
+                <div class="side-bar-menu">
+                    <a href="#"><i class='bx bx-time'></i></a>
+                    <p>Recent</p>
+                </div>
+            </section>
+            <section id="section-2" class="division-p2">
+                <h2>New Release</h2>
+                <div class="movie-container-kids">
+                    <div class="movie-kids">
+                        <img src="" alt="movie-image" class="kidsClass">
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
